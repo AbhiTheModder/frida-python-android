@@ -20,8 +20,7 @@ If you're installing frida `16.4.10` and you've downloaded devkit `frida-core-de
 ```shell
 git clone https://github.com/AbhiTheModder/frida-python-android
 cd frida-python-android
-FRIDA_VERSION=16.4.10 FRIDA_CORE_DEVKIT=../devkit pip wheel .
-pip install --force-reinstall frida-16.4.10-cp37-abi3-linux_aarch64.whl
+FRIDA_VERSION=16.4.10 FRIDA_CORE_DEVKIT=../devkit pip install .
 ```
 then install `frida-tools`:
 ```shell
