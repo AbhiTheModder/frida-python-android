@@ -15,7 +15,7 @@ pip install --force-reinstall frida-<FRIDA_VERSION>-cp37-abi3-linux_aarch64.whl
 > Note that you use devkit of same version which you're installing for.
 
 ## Example:
-If you're installing frida `16.4.10` and you're downloaded devkit `frida-core-devkit-16.4.10-android-arm64.tar.xz` and extracted into your termux path `$HOME/devkit`:
+If you're installing frida `16.4.10` and you've downloaded devkit `frida-core-devkit-16.4.10-android-arm64.tar.xz` and extracted into your termux path `$HOME/devkit`:
 
 ```shell
 git clone https://github.com/AbhiTheModder/frida-python-android
@@ -25,5 +25,5 @@ pip install --force-reinstall frida-16.4.10-cp37-abi3-linux_aarch64.whl
 ```
 then install `frida-tools`:
 ```shell
-pip install frida-tools
+pip install --upgrade frida-tools
 ```
