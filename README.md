@@ -23,3 +23,7 @@ cd frida-python-android
 FRIDA_VERSION=16.4.10 FRIDA_CORE_DEVKIT=../devkit pip wheel .
 pip install --force-reinstall frida-16.4.10-cp37-abi3-linux_aarch64.whl
 ```
+then install `frida-tools`:
+```shell
+pip install frida-tools
+```
